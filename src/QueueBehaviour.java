@@ -1,2 +1,7 @@
-package PACKAGE_NAME;public interface QueueBehaviour {
+public interface QueueBehaviour {
+    void takeInQueue(Actor actor);
+    void takeOrders();
+    void giveOrders();
+    void releaseFromQueue();
+
 }
